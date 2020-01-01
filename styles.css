@@ -3,6 +3,7 @@ table
  color:green;
  border:2px solid blue;
  border-collapse: collapse;
+ width:50%;
 }
 th,td{
     border:2px solid blue;
