@@ -1,13 +1,13 @@
 table
 {
  color:green;
- border:4px solid blue;
+ border:2px solid blue;
 }
 tr{
-    border:4px solid blue;
+    border:2px solid blue;
 }
 td{
-    border:4px solid blue;
+    border:2px solid blue;
 }
 div {
     background-color: blue;
