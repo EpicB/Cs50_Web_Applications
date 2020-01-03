@@ -23,6 +23,9 @@ a::before{
    content:"\21d2 click here ";
    font-weight:bold;
 }
+footer::before{
+    content:"hello shawrma ";
+}
 p::selection{ /*makes it so when you highlight the element it does certain styling */
     color:red;
     background-color: black;
