@@ -32,13 +32,13 @@ p::selection{ /*makes it so when you highlight the element it does certain styli
         display:none;
     }
 }
-@media (min-width:500px)
+@media (min-width:1000px)
 {
     body{
         background-color: black;
     }
 }
-@media (max-width:499px) /* if the window is less than 500px it will change color */
+@media (max-width:800px) /* if the window is less than 500px it will change color */
 {
     body{
         background-color: #c90606;
