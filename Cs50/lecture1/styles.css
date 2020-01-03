@@ -1,3 +1,6 @@
 section{
     background-color: blue;
 }
+ol>li{ /* it changes the immediate childeren after ol that named li*/
+    color:blue;
+}
