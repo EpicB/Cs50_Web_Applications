@@ -27,6 +27,11 @@ p::selection{ /*makes it so when you highlight the element it does certain styli
     color:red;
     background-color: black;
 }
+@media print{
+    .screen-only{
+        display:none;
+    }
+}
 /* usefull css selectors
 a,b multiple element selector
 a b descendent selector
