@@ -23,6 +23,9 @@ a::before{
    content:"\21d2 click here ";
    font-weight:bold;
 }
+footer{
+    color:white;
+}
 footer::before{
     content:"hello shawrma ";
 }
