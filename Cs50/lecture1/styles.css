@@ -38,6 +38,6 @@ a b descendent selector
 a>b child selector
 a+b adjacent sibling selector
 [a=b] attripute selector
- a:b pseudoclass selector
- a::b pseudoelement selector
+a:b pseudoclass selector
+a::b pseudoelement selector
  */
