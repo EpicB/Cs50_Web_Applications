@@ -23,6 +23,6 @@ th,td{
 .name{
     font-weight: bold;
 }
-ol ul{
+ol ul{  /*this will change any ul element nested within an ol element */
     color: red;
 }
