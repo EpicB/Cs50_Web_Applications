@@ -32,6 +32,19 @@ p::selection{ /*makes it so when you highlight the element it does certain styli
         display:none;
     }
 }
+@media (min-width:500px)
+{
+    body{
+        background-color: black;
+    }
+}
+@media (max-width:499px)
+{
+    body{
+        background-color: #4b0000;
+    }
+}
+
 /* usefull css selectors
 a,b multiple element selector
 a b descendent selector
