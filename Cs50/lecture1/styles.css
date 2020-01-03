@@ -41,7 +41,7 @@ p::selection{ /*makes it so when you highlight the element it does certain styli
 @media (max-width:499px) /* if the window is less than 500px it will change color */
 {
     body{
-        background-color: #4b0000;
+        background-color: #c90606;
     }
 }
 
