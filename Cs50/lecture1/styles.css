@@ -32,7 +32,7 @@ p::selection{ /*makes it so when you highlight the element it does certain styli
         display:none;
     }
 }
-@media (min-width:1000px)
+@media (min-width:801px)
 {
     body{
         background-color: black;
