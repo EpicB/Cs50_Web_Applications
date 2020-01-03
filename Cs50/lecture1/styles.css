@@ -4,3 +4,9 @@ section{
 ol > li{ /* it changes the immediate childeren after ol that named li*/
     color:blue;
 }
+input[type="text"]{
+    color:#ff000f;
+}
+input[type="number"]{
+    color:yellow;
+}
