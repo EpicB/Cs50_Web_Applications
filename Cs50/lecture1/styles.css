@@ -37,15 +37,16 @@ p::selection{ /*makes it so when you highlight the element it does certain styli
 }
 @media (min-width:801px)
 {
-    footer::before{
-        content:"hello shawrma ";
-    }
+    
     body{
         background-color: black;
     }
 }
 @media (max-width:800px) /* if the window is less than 500px it will change color */
 {
+    footer::before{
+        content:"hello shawrma ";
+    }
     body{
         background-color: #c90606;
     }
