@@ -20,6 +20,6 @@ button:hover{
     background-color: red;
 }
 a::before{
-   content:"\21d2 click here : ";
+   content:"\21d2 click here ";
    font-weight:bold;
 }
