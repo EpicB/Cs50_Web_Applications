@@ -27,3 +27,12 @@ p::selection{ /*makes it so when you highlight the element it does certain styli
     color:red;
     background-color: black;
 }
+/* usefull css selectors
+a,b multiple element selector
+a b descendent selector
+a>b child selector
+a+b adjacent sibling selector
+[a=b] attripute selector
+ a:b pseudoclass selector
+ a::b pseudoelement selector
+ */
