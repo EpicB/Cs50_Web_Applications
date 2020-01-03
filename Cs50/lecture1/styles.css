@@ -26,9 +26,6 @@ a::before{
 footer{
     color:white;
 }
-footer::before{
-    content:"hello shawrma ";
-}
 p::selection{ /*makes it so when you highlight the element it does certain styling */
     color:red;
     background-color: black;
@@ -40,6 +37,9 @@ p::selection{ /*makes it so when you highlight the element it does certain styli
 }
 @media (min-width:801px)
 {
+    footer::before{
+        content:"hello shawrma ";
+    }
     body{
         background-color: black;
     }
