@@ -1,0 +1,22 @@
+%message{
+    font-size:medium;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin:20px;
+    border:1px solid black;
+}
+
+.yes{
+    @extend %message;
+    background-color: green;
+}
+.wait{
+    @extend %message;
+    background-color: yellow;
+}
+.no{
+    @extend %message;
+    background-color: red;
+}

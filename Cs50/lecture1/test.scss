@@ -1,0 +1,8 @@
+$hey:black;
+
+body{ /*you can nest elements within each other using scss any p iside of a body should have the color blue*/
+color:$hey;
+ p{
+     color:blue;
+ }
+}

@@ -1,0 +1,17 @@
+#page {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+#logtable {
+    width: 800px;
+    display: inline-table;
+    background-color: lightgreen;
+}
+
+#divMessage {
+    width: 350px;
+    display: inline-block;
+    background-color: lightblue;
+}

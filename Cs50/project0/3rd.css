@@ -1,0 +1,13 @@
+body{
+    align-self: auto;
+    text-align: center;
+    background-color: rgb(20, 0, 0);
+}
+table{
+  margin:auto;
+  float: left;
+}
+#image{
+  padding:15px;
+  margin:13% 20% 13% 20%
+}

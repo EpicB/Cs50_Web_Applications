@@ -1,0 +1,9 @@
+body {
+  /*you can nest elements within each other using scss any p iside of a body should have the color blue*/
+  color: black;
+}
+
+body p {
+  color: blue;
+}
+/*# sourceMappingURL=test.css.map */
