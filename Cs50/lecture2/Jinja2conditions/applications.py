@@ -9,3 +9,5 @@ def hello():
     new_year= now.month == 1 and now.day == 1 
     new_year= True
     return  render_template("conditions.html",new_year=new_year)
+#uses jinja2
+#render_template looks for a template folder that has all the templates.
