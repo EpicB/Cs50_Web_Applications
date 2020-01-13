@@ -10,9 +10,9 @@ notes = []
 @app.route("/", methods=["POST","GET"])
 def hello():
     if request.method == "POST":
-        Session["notes"]=[]
+        session["notes"]=[]
         note=request.form.get("note")
-        Session["notes"].append(note)
-        return render_template("main.html",notes=Session["notes"])
+        session["notes"].append(note)
+        return render_template("main.html",notes=session["notes"])
     else:
       return render_template("main.html")
