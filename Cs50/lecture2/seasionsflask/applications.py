@@ -12,6 +12,6 @@ def hello():
     if request.method == "POST":
         note=request.form.get("note")
         notes.append(note)
-
         return render_template("main.html",notes=notes)
-    
+    else
+     return render_template("main.html",notes=notes)
