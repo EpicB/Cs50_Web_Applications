@@ -14,4 +14,4 @@ def hello():
         notes.append(note)
         return render_template("main.html",notes=notes)
     else:
-     return render_template("main.html",notes=notes)
+     return render_template("main.html")
