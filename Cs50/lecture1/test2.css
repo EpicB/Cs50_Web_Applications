@@ -1,0 +1,22 @@
+.yes, .wait, .no {
+  font-size: medium;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.yes {
+  background-color: green;
+}
+
+.wait {
+  background-color: yellow;
+}
+
+.no {
+  background-color: red;
+}
+/*# sourceMappingURL=test2.css.map */

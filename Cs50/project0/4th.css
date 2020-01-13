@@ -1,0 +1,14 @@
+.hello > div{
+    background-color: darkgray;
+    font-size: 200px;
+    padding-left:50px;
+    margin:20px;
+    width:200px;  
+}
+.hello{
+    display:flex;
+    flex-wrap: wrap;
+}
+.body{
+   background-color:black;
+}

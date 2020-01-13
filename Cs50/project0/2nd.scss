@@ -1,0 +1,40 @@
+%paddingsetup{
+    font-size: 18px;
+    padding: 125px;
+    font-weight: bold;
+    background-size:cover;
+    
+}
+p{
+  text-align: center;
+}
+a::before{
+    content:"\21a6" ;
+    font-weight:bold;
+ }
+ h1{
+   color: white;
+   text-align: center;
+ }
+.body{
+    background-color: black;
+}
+#c1 {
+    @extend %paddingsetup;
+    background-image: url('league of legends4.jpg');
+  }
+  
+  #c2 {
+    @extend %paddingsetup;
+    background-image: url('celeste2.png');
+  }
+  
+  #c3 {
+    @extend %paddingsetup;
+    background-image: url('blacksquad.jpg');
+  }
+  
+  #c4 {
+    @extend %paddingsetup;
+    background-image: url('Deadcells.jpg');
+  }
