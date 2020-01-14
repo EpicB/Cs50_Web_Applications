@@ -9,6 +9,7 @@ Session(app)
 
 @app.route("/", methods=["POST","GET"])
 def hello():
+    if session.get("notes") is None
     session["notes"]=[]
     if request.method == "POST":
         note=request.form.get("notes")
