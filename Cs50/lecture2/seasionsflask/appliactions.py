@@ -11,7 +11,6 @@ Session(app)
 def hello():
     session['notes']=[]
     if request.method == "POST":
-        
         note=request.form.get("notes")
         session['notes'].append(note)
 
