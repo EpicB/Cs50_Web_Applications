@@ -15,5 +15,3 @@ def hello():
         note=request.form.get("notes")
         session['notes'].append(note)
         return render_template("main.html",notes=session['notes'])
-    else:
-        return render_template("main.html",notes=session['notes'])
