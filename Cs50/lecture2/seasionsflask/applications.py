@@ -1,5 +1,5 @@
 from flask import Flask,render_template,request,sessions
-from flask.ext.session import Session
+from flask_session import Session
 
 
 app = Flask(__name__)
