@@ -8,8 +8,9 @@ app.config["SESSION_TYPE"]= "filesystem"
 
 @app.route("/", methods=["POST","GET"])
 def hello():
-    sessions["notes"]=[]
+    
     if request.method == "POST":
+        sessions["notes"]=[]
         note=request.form.get("notes")
         sessions["notes"].append(note)
         return render_template("main.html",notes=sess["notes"])
