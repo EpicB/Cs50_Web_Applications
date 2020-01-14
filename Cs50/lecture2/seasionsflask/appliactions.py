@@ -10,7 +10,7 @@ Session(app)
 @app.route("/", methods=["POST","GET"])
 def hello():
     session['notes']=[]
-    aif request.method == "POST":
+    if request.method == "POST":
         note=request.form.get("notes")
         session['notes'].append(note)
 
