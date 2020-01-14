@@ -13,6 +13,6 @@ def hello():
         sessions["notes"]=[]
         note=request.form.get("notes")
         sessions["notes"].append(note)
-        return render_template("main.html",notes=sess["notes"])
+        return render_template("main.html",notes=sessions["notes"])
     else:
-        return render_template("main.html")
+        return render_template("main.html",notes=sessions["notes"])
