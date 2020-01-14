@@ -14,4 +14,5 @@ def hello():
         session['notes']=[]
         note=request.form.get("notes")
         session['notes'].append(note)
-        return render_template("main.html",notes=session['notes'])
+
+    return render_template("main.html",notes=session['notes'])
