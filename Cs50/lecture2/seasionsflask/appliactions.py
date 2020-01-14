@@ -12,7 +12,7 @@ def hello():
     if  session.get("notes") is None:
         session["notes"]=[]
     if request.method == "POST":
-        note=request.form.get("notes")
+        note=request.form.get("note")
         session["notes"].append(note)
 
     return render_template("main.html",notes=session["notes"])
