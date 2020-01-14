@@ -5,8 +5,9 @@ from flask_session import Session
 app = Flask(__name__)
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"]= "filesystem"
-Session(app)
 
+sess = Session()
+sess.init_app(app)
 Session["note"]=[]
 @app.route("/", methods=["POST","GET"])
 def hello():
