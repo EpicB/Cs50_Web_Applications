@@ -11,9 +11,9 @@ Session(app)
 def hello():
     
     if request.method == "POST":
-        sessions["notes"]=[]
+        session["notes"]=[]
         note=request.form.get("notes")
-        sessions["notes"].append(note)
-        return render_template("main.html",notes=sessions["notes"])
+        session["notes"].append(note)
+        return render_template("main.html",notes=session["notes"])
     else:
-        return render_template("main.html",notes=sessions["notes"])
+        return render_template("main.html",notes=session["notes"])
