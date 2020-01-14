@@ -14,5 +14,5 @@ def hello():
         note=request.form.get("note")
         notes.append(note)
         return render_template("main.html",notes=notes)
-    else
+    else:
         return render_template("main.html",notes=notes)
