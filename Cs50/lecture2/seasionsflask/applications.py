@@ -1,5 +1,4 @@
 from flask import Flask,render_template,request,sessions
-from flask_session import Session
 from flask.ext.session import Session
 
 
