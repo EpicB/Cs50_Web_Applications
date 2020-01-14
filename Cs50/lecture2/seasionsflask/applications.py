@@ -6,14 +6,12 @@ app = Flask(__name__)
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"]= "filesystem"
 
-sess = Session()
-sess.init_app(app)
-sess["notes"]=[]
 @app.route("/", methods=["POST","GET"])
 def hello():
+    sessions["notes"=[]
     if request.method == "POST":
         note=request.form.get("notes")
-        sess["note"].append(note)
+        sessions["notes"].append(note)
         return render_template("main.html",notes=sess["notes"])
     else:
         return render_template("main.html")
